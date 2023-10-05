@@ -1,0 +1,14 @@
+body{
+	background-color: chartreuse;
+}
+.container{
+	background: antiquewhite;
+	padding: 40px;
+	font-family: 'Roboto';
+}
+.profile{
+	border-radius: 50%;
+	width: auto;
+	padding: 50%;
+	
+}

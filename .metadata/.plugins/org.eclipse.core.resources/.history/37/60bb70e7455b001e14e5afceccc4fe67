@@ -1,0 +1,28 @@
+package com.practice.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.practice.entities.LoginData;
+
+@Controller
+public class myController {
+
+	@GetMapping("/form-info")
+	public String openForm(Model model) {
+		model.addAttribute("loginData", new LoginData());
+		System.out.println("This is form info page");
+		return "form";
+	}
+	
+	
+	// handler for processing form
+	@PostMapping("/process")
+	public String processForm(@ModelAttribute) {
+		return "success";
+	}
+	
+}

@@ -1,0 +1,18 @@
+package com.practice.entities;
+
+public class LoginData {
+prvate String userName;
+private String email;
+public prvate getString() {
+	return String;
+}
+public void setString(prvate string) {
+	String = string;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+}

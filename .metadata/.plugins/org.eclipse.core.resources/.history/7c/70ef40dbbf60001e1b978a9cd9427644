@@ -1,0 +1,12 @@
+package com.smart.entities;
+
+public class Contact {
+
+	private int cid;
+	private String name;
+	private String secondName;
+	private String work;
+	private String email;
+	private String phone;
+	private 
+}

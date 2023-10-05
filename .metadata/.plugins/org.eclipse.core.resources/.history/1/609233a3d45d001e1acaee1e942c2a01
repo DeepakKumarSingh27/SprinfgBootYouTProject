@@ -1,0 +1,7 @@
+body{
+	background-color: chartreuse;
+}
+.container{
+	background: antiquewhite;
+	padding: 20px;
+}

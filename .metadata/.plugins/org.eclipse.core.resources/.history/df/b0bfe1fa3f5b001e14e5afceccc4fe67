@@ -1,0 +1,17 @@
+package com.practice.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.practice.entities.LoginData;
+
+@Controller
+public class myController {
+
+	@GetMapping("/form-info")
+	public String openForm(Model model) {
+		model.addAttribute("loginData", new LoginData());
+		return "form"; 
+	}
+}

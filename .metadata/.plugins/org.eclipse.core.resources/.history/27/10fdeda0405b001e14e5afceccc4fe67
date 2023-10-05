@@ -1,0 +1,6 @@
+package com.practice.entities;
+
+public class LoginData {
+prvate String userName;
+private String email;
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmln:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Example</title>
+	<link rel="stylesheet" href="" />
+</head>
+<body>
+	<div class="container">
+		<h1>Adding Css,javascript and img</h1>
+		<p>Lorem ipsum dolor sit amet,
+			 consectetur adipisicing elit.
+			  Impedit maiores assumenda eveniet
+			   mollitia quo quasi saepe voluptas
+			    aperiam ullam culpa?
+			    </p>
+	</div>
+</body>
+</html>
